@@ -1,0 +1,374 @@
+{
+  "data": {
+    "id": "aeaf3c4b-83be-476c-a7e5-fbabb5ab1d52",
+    "shortId": "aeaf3c4b",
+    "status": "CLOSED",
+    "priority": "NORMAL",
+    "description": "Created by Composer API",
+    "notes": [],
+    "currentStep": {
+      "id": "410caa7a-d36b-4dd1-a1fa-05700e702087",
+      "userGroups": [
+        {
+          "id": "f5e4f64c-7ae1-4838-90d8-e2298c3c1ae7",
+          "name": "Sipariş Problemleri",
+          "autoAssignment": null,
+          "groupType": 0,
+          "workingTimeZones": [
+            {
+              "name": "08:00 - 17:00",
+              "shiftStart": 300,
+              "shiftEnd": 840
+            }
+          ]
+        }
+      ],
+      "startDate": "2023-09-26T08:31:44.325+03:00",
+      "sla": 1080
+    },
+    "flow": {
+      "id": "9fa5d60d-80c1-4a9c-869d-72943a55d0ec",
+      "name": "Sipariş Problemleri",
+      "steps": [
+        {
+          "id": "410caa7a-d36b-4dd1-a1fa-05700e702087",
+          "name": "Sipariş Problemleri"
+        }
+      ],
+      "category": {
+        "id": "e0f00d1e-aa41-4fc4-bbbc-5b224245a837"
+      },
+      "estimatedSla": 1440,
+      "shortId": 341,
+      "sla": 1080,
+      "nameTranslations": [
+        {
+          "languageCode": "en",
+          "value": "Order Problems"
+        }
+      ],
+      "version": 10080
+    },
+    "executedSteps": [
+      {
+        "id": "410caa7a-d36b-4dd1-a1fa-05700e702087",
+        "customFields": null
+      }
+    ],
+    "createdFor": {
+      "id": "d6cf83be-67b8-41d2-a11c-e57199ae37c3",
+      "templateId": "edc1b16d-cac3-48f1-baaa-b76ddf24e898",
+      "email": "recep.emul@trendyol.com",
+      "fieldValues": [
+        {
+          "id": "7d4dd11f-1060-41c2-8c3e-eda2bf9d212e",
+          "value": "RECEP EMUL",
+          "valueTranslations": null
+        },
+        {
+          "id": "5f7ad98b-ed55-40b0-a84c-935b2ee717b4",
+          "value": "118076466",
+          "valueTranslations": null
+        },
+        {
+          "id": "3b6086a8-01d9-4280-baa6-f9ed1dee5571",
+          "value": "4171",
+          "valueTranslations": null
+        },
+        {
+          "id": "c740de08-5ff8-43f9-8c6d-d4489328ca68",
+          "value": "4171",
+          "valueTranslations": null
+        },
+        {
+          "id": "16564ec9-2d1e-4509-9478-a41ce2b78f6f",
+          "value": "+905384589874",
+          "valueTranslations": null
+        },
+        {
+          "id": "9982a1a1-a98a-43e8-8d4f-33a0c9700e32",
+          "value": "recep.emul@trendyol.com",
+          "valueTranslations": null
+        },
+        {
+          "id": "115238d7-96d7-4ff1-b66a-a09daf451a1c",
+          "value": "TestDay",
+          "valueTranslations": null
+        },
+        {
+          "id": "69a18d5b-aa79-48d7-98ff-05aac62f812c",
+          "value": "EDM BİLİŞİM SİSTEMLERİ VE DANIŞMANLIK HİZMETLERİ ANONİM ŞİRKETİ",
+          "valueTranslations": null
+        },
+        {
+          "id": "66d8327d-1273-4b08-bb20-7344f58f2985",
+          "value": "Evet",
+          "valueTranslations": null
+        },
+        {
+          "id": "2b48b389-2e4c-409a-a328-ad4e4802b35d",
+          "value": "Hayır",
+          "valueTranslations": null
+        },
+        {
+          "id": "7caec7dc-bb94-4b58-8924-25e6bedb37d4",
+          "value": "Hayır",
+          "valueTranslations": null
+        },
+        {
+          "id": "89e7c8fc-67d5-47a8-b312-748877676907",
+          "value": "TRENDYOL",
+          "valueTranslations": null
+        },
+        {
+          "id": "96dc4c5b-1ce6-4992-81d4-ff4a163c2d25",
+          "value": "Hayır",
+          "valueTranslations": null
+        },
+        {
+          "id": "4fd5c808-a21e-4140-ad3e-b62992d21b4a",
+          "value": "Hayır",
+          "valueTranslations": null
+        },
+        {
+          "id": "2b1bb3a8-60ca-423f-9293-431e845e008d",
+          "value": "Aktif",
+          "valueTranslations": null
+        },
+        {
+          "id": "62881e10-1f5b-4353-a551-70691fd510f1",
+          "value": "",
+          "valueTranslations": null
+        }
+      ],
+      "sourceId": "118076466",
+      "uniqueField": null
+    },
+    "assignedGroup": {
+      "id": "f5e4f64c-7ae1-4838-90d8-e2298c3c1ae7",
+      "name": "Sipariş Problemleri",
+      "autoAssignment": null,
+      "groupType": 0,
+      "workingTimeZones": [
+        {
+          "name": "08:00 - 17:00",
+          "shiftStart": 300,
+          "shiftEnd": 840
+        }
+      ]
+    },
+    "closingNotes": [
+      {
+        "id": "93423bb3-973f-40ab-b143-931bfb9547ac",
+        "text": "Closed By Composer API",
+        "createdBy": {
+          "id": "6e5c4d4c-9586-4f30-bba2-7adf158a6e17",
+          "email": "recepemul@trendyol.com",
+          "firstName": "Recep",
+          "lastName": "Emul"
+        },
+        "createdDate": "2023-09-26T08:31:48.004+03:00",
+        "modifiedDate": "2023-09-26T08:31:48.004+03:00"
+      }
+    ],
+    "customFields": [
+      {
+        "id": "2e6f60da-e289-436f-9cc6-474fd10d206d",
+        "value": "TestAutomation31",
+        "locationType": "OPENING",
+        "dataType": null,
+        "name": "Cari ID",
+        "nameTranslations": [
+          {
+            "languageCode": "en",
+            "value": "Supplier ID"
+          }
+        ],
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "0038a555-e2bf-4156-b0f4-e4bb986b2bfc",
+        "value": "Hayır",
+        "locationType": "OPENING",
+        "dataType": null,
+        "name": "Bildirim Hatalı mı?",
+        "nameTranslations": null,
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "acd682c9-92bf-4412-ba6f-41c5ff1fdb91",
+        "value": "Closed by Composer API",
+        "locationType": "OPENING",
+        "dataType": null,
+        "name": "Hatalı Bildirim Açıklaması",
+        "nameTranslations": [
+          {
+            "languageCode": "en",
+            "value": "Error Ticket Description"
+          }
+        ],
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "11265f54-e4f5-4913-b5f4-44f3f2d49f43",
+        "value": "TestAutomation29",
+        "locationType": "OPENING",
+        "dataType": null,
+        "name": "Teslimat Numarası",
+        "nameTranslations": [
+          {
+            "languageCode": "en",
+            "value": "Delivery Number"
+          }
+        ],
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "07367eb2-7f9b-4ba2-b23b-3eb504f3aef5",
+        "value": "NORMAL",
+        "locationType": "CLOSING",
+        "dataType": null,
+        "name": "Müşteri Segmenti",
+        "nameTranslations": null,
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "0038a555-e2bf-4156-b0f4-e4bb986b2bfc",
+        "value": "Hayır",
+        "locationType": "SELLERPANEL",
+        "dataType": null,
+        "name": "Bildirim Hatalı mı?",
+        "nameTranslations": null,
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "acd682c9-92bf-4412-ba6f-41c5ff1fdb91",
+        "value": "Closed by Composer API",
+        "locationType": "SELLERPANEL",
+        "dataType": null,
+        "name": "Hatalı Bildirim Açıklaması",
+        "nameTranslations": [
+          {
+            "languageCode": "en",
+            "value": "Error Ticket Description"
+          }
+        ],
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "11265f54-e4f5-4913-b5f4-44f3f2d49f43",
+        "value": "TestAutomation29",
+        "locationType": "SELLERPANEL",
+        "dataType": null,
+        "name": "Teslimat Numarası",
+        "nameTranslations": [
+          {
+            "languageCode": "en",
+            "value": "Delivery Number"
+          }
+        ],
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "07367eb2-7f9b-4ba2-b23b-3eb504f3aef5",
+        "value": "NORMAL",
+        "locationType": "SELLERPANEL",
+        "dataType": null,
+        "name": "Müşteri Segmenti",
+        "nameTranslations": null,
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "acd682c9-92bf-4412-ba6f-41c5ff1fdb91",
+        "value": "Closed by Composer API",
+        "locationType": "TEXPANEL",
+        "dataType": null,
+        "name": "Hatalı Bildirim Açıklaması",
+        "nameTranslations": [
+          {
+            "languageCode": "en",
+            "value": "Error Ticket Description"
+          }
+        ],
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "11265f54-e4f5-4913-b5f4-44f3f2d49f43",
+        "value": "TestAutomation29",
+        "locationType": "TEXPANEL",
+        "dataType": null,
+        "name": "Teslimat Numarası",
+        "nameTranslations": [
+          {
+            "languageCode": "en",
+            "value": "Delivery Number"
+          }
+        ],
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      },
+      {
+        "id": "07367eb2-7f9b-4ba2-b23b-3eb504f3aef5",
+        "value": "NORMAL",
+        "locationType": "TEXPANEL",
+        "dataType": null,
+        "name": "Müşteri Segmenti",
+        "nameTranslations": null,
+        "isValueTranslatable": null,
+        "defaultLanguageCode": "",
+        "valueTranslations": null
+      }
+    ],
+    "relatedTicketInfo": null,
+    "ticketPendingReasons": [],
+    "createdBy": {
+      "id": "6e5c4d4c-9586-4f30-bba2-7adf158a6e17",
+      "email": "recepemul@trendyol.com",
+      "firstName": "Recep",
+      "lastName": "Emul"
+    },
+    "assignedUser": null,
+    "createdDate": "2023-09-26T08:31:44.340+03:00",
+    "completedDate": "2023-09-26T08:31:48.003+03:00",
+    "mailStatus": "MAIL_SENT",
+    "remainingSla": 1080,
+    "spentSla": 0,
+    "totalSla": 1080,
+    "expireSlaType": "NONE",
+    "cacheSetTime": null,
+    "operatedUserGroups": [],
+    "ratingExpireDate": "2024-09-26T08:31:48.003+03:00",
+    "ratings": [],
+    "redirection": {
+      "opNote": "Bildirim yaratıldı.",
+      "date": "2023-09-26T08:31:44.340+03:00"
+    },
+    "team": null,
+    "flowStatuses": [],
+    "communicationStatuses": [
+      "MAIL_SENT"
+    ],
+    "btkId": ""
+  }
+}
