@@ -27,7 +27,7 @@ public class WireMockTest {
     OkHttpClient client = new OkHttpClient().newBuilder()
         .build();
     Request request = new Request.Builder()
-        .url("http://localhost:8089/v3/tickets/aeaf3c4b-83be-476c-a7e5-fbabb5ab1d52")
+        .url("http://localhost:8089/message-api/1")
         .method("GET", null)
         .build();
     Response response = client.newCall(request).execute();
@@ -38,6 +38,6 @@ public class WireMockTest {
 
   private void configureStub() {
     configureFor("localhost", 8089);
-    stubFor(get(urlEqualTo("/v3/tickets/aeaf3c4b-83be-476c-a7e5-fbabb5ab1d52")).willReturn(aResponse().withBody("welcome")));
+    stubFor(get(urlEqualTo("/message-api/1")).willReturn(aResponse().withBody("welcome")));
   }
 }
